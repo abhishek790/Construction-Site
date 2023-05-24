@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------navbar----------------- */
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: hsl(172, 85%, 28%);
+    width: 100%;
+    height: 80px;
+}
+
+.logo{ 
+    color:white;
+}
+
+.logospan{
+    color: rgb(36, 205, 231);
+    font-size: 1rem;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    margin-right: 1rem;
+    
+
+}
+
+nav a.active{
+    color:  rgb(36, 205, 231);
+}
+
+/* -----------------------section img------------------- */
+
+
+.text{
+    width: 100%;
+    height: 100%;
+    background: yellowgreen;
+}

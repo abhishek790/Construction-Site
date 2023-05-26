@@ -19,7 +19,7 @@ header{
     color:white;
 }
 
-.logospan{
+.logo span{
     color: rgb(36, 205, 231);
     font-size: 1rem;
 }
@@ -39,7 +39,7 @@ nav a.active{
 /* -----------------------section img------------------- */
 
 
-.text{
+ .home .text{
     margin: 40px 200px;
     background: url(images/construction.jpg);
     height: 500px;
@@ -51,6 +51,26 @@ nav a.active{
     align-items: center;
     line-height: 1cm;
     font-style:italic ;
+
+}
+
+.intro{
+    display: flex;
+    /* justify-content: space-around; */ 
+    /* padding:25px 200px; */
+}
+
+.intro .leftside{
+    /* margin: 0px 30px; */
+    
+}
+.intro .rightside{
+    /* margin:0px 30px; */
+}
+.leftside p{
+    color:red;
+    font-style: italic;
+    line-height: 0.8cm;
 
 }
 

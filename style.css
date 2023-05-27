@@ -180,6 +180,16 @@ footer{
     display: block;
 }
 
-footer hr{
-    color:aqua;
+.last-line hr{
+    margin: auto;
+    width: 90%;
+    border: 1px solid rgb(46, 195, 218); 
+}
+.last-line p{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.last-line p .copyright{
+    color:rgb(46, 195, 218);
 }

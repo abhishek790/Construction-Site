@@ -36,13 +36,13 @@ nav a.active{
     color:  rgb(36, 205, 231);
 }
 
-/* -----------------------section img------------------- */
+/* -----------------------section Home------------------- */
 
 
  .home .text{
     margin: 40px 200px;
     background: url(images/construction.jpg);
-    height: 500px;
+    height: 400px;
     width: 70%;
     color:white;
     display: flex;
@@ -56,22 +56,130 @@ nav a.active{
 
 .intro{
     display: flex;
-    /* justify-content: space-around; */ 
-    /* padding:25px 200px; */
+    justify-content: space-around; 
+    margin:25px 200px;
+     
 }
 
 .intro .leftside{
-    /* margin: 0px 30px; */
+    padding-right: 15rem;
     
+    line-height: 1cm;
+   
 }
+.intro .leftside h1{
+    font-weight: 1000;
+    font-size:28px;
+}
+
 .intro .rightside{
-    /* margin:0px 30px; */
+    position: relative;
+    right: 5rem;
+    width:40rem;
+    
 }
 .leftside p{
     color:red;
     font-style: italic;
     line-height: 0.8cm;
-
+}
+/* ---------------------------------------------SERVICES---------------------------- */
+.services{
+    width: 100%;
+    height: 70vh;
+    padding-top: 40px;
+    background-color: #c9c3c38a;
 }
 
- 
+.services .text{
+    text-align: center;
+}
+.services .text h4{
+    color: red;
+    font-style: italic;
+    line-height: 1cm;
+}
+
+.services .container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container .card{
+    width: 270px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+}
+.card .card-image{
+   width: 250px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top:10px
+   
+}
+.card .cons-1{
+    background: url(images/service1.jpg);
+}
+.card .cons-2{
+    background: url(images/service2.jpg);
+}
+.card .cons-3{
+    background: url(images/service3.jpg);
+}
+.card .cons-4{
+    background: url(images/service4.jpg);
+}
+
+.services .btn{
+    display: flex;
+    justify-content: center;
+}
+.services .btn button{
+    margin-top:15px;
+    text-align: center;
+    background: red;
+    border-radius: 3px;
+    width:190px;
+    height: 30px;
+    color: white;
+    border:red;
+}
+/* ------------------------------------FOOTER-------------------------------- */
+footer{
+    width: 100%;
+    height: 60vh;
+    background: #15516b;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top:40px;
+    line-height: 1cm;
+}
+
+.footer-container .heading{
+    margin-bottom: 15px;
+}
+.footer-container .icon{
+    color:rgb(46, 195, 218);
+} 
+.contact .contact-icon{
+    background: white;
+    border-radius: 25px;
+}
+
+.footer-container .branch{
+    padding-top:45px;
+}
+.footer-container .links a{
+    display: block;
+}
+
+footer hr{
+    color:aqua;
+}
